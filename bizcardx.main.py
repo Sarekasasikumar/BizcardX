@@ -20,7 +20,7 @@ import re
 st.set_page_config(page_title= "BizCardX: Extracting Business Card Data with OCR ",
                    layout= "wide",
                    initial_sidebar_state= "expanded",
-                   menu_items={'About': """#hi"""})
+                   menu_items={'About': """##Extract information from business card images"""})
 st.markdown("<h1 style='text-align: center; color: white;'>BizCardX: Extracting Business Card Data with OCR</h1>", unsafe_allow_html=True)
 
 
@@ -319,7 +319,7 @@ if selected == "Modify":
         
 
 
-# In[ ]:
+
 
 
 
